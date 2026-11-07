@@ -1,0 +1,27 @@
+{
+  "name": "food-express",
+  "private": true,
+  "version": "4.0.0",
+  "description": "Food Express — food ordering website built with React + Vite. User module (login, signup, products, cart, orders, profile) plus a separate Admin module (login, dashboard, product / order / user management) using localStorage.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "echo \"(add ESLint later - not required for the demo)\" && exit 0",
+    "backend": "node backend/src/server.js",
+    "seed": "node backend/seed/seed.js"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^7.1.7"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
